@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, name, surname, age, group):
+    def __init__(self, name, surname, age, group, money):
         self.name = name
         self.surname = surname
         self.age = age
@@ -13,10 +13,13 @@ class Student:
         result = sum(self.marks) / len(self.marks)
 
     def info(self):
-        print(f"Student {self.name} {self.surname}")
+        print(f"Student {self.money}")
 
     def to_chill(self):
-        pass
+        self.money -= 10
+      if self.money = 0
+      else:
+    print("i need go work to have money")
 
 student1 = Student(
     "Oleg",
@@ -24,7 +27,7 @@ student1 = Student(
     24,
     "F18",
     [9, 7, 2, 7, 12]
-
+    500
 )
 student2 = Student(
     "Igor",
@@ -32,6 +35,7 @@ student2 = Student(
     28,
     "F13",
     [9, 12, 7, 12, 12, 5]
+    541
 )
 student1.info()
 student2.info()
