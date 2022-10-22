@@ -5,6 +5,7 @@ class Student:
         self.age = age
         self.group = group
         self.marks = marks
+        self.money = money
     def info(self):
         print(f"Student {self.name} {self.surname}")
 
