@@ -12,12 +12,19 @@ class Student:
     def average(self):
         result = sum(self.marks) / len(self.marks)
 
+    def info(self):
+        print(f"Student {self.name} {self.surname}")
+
+    def to_chill(self):
+        pass
+
 student1 = Student(
     "Oleg",
     "Bobko",
     24,
     "F18",
     [9, 7, 2, 7, 12]
+
 )
 student2 = Student(
     "Igor",
