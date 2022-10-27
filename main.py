@@ -6,6 +6,7 @@ class Student:
         self.group = group
         self.marks = marks
         self.money = money
+        self.gradebook = gradebook
     def info(self):
         print(f"Student {self.name} {self.surname}")
 
@@ -17,14 +18,16 @@ class Student:
 
     def to_chill(self):
         self.money -= 10
-
-    if self.money = 0
+      if self.money = 0
       else:
-    print("I need go work to have money")
+    print("i need go work to have money")
 
-    if self.marks = 5:
-       else:
-       print("I have to go to school to get good grades")
+class Aspirant(Student):
+    student1:
+    print("Oleg Bobko is preparing to defend the thesis")
+    student2:
+    print("Igot Vovk isn`t preparing to defend the thesis")
+
 
 student1 = Student(
     "Oleg",
